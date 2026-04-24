@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script src="https://unpkg.com/lottie-web@latest/build/player/lottie.min.js"></script>
+</head>
+<body>
+  <div id="lottie" style="width:650px;height:300px;"></div>
+
+  <script>
+    lottie.loadAnimation({
+      container: document.getElementById('lottie'),
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: 'loading.json'
+    });
+  </script>
+</body>
+</html>
